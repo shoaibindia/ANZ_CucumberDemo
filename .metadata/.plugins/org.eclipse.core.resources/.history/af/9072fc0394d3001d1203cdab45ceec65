@@ -1,0 +1,14 @@
+package TestRun;
+
+import org.junit.runner.RunWith;
+
+import cucumber.api.Cucumber;
+import cucumber.api.CucumberOptions;
+
+@RunWith(CucumberOptions.class)
+@CucumberOptions(
+		{}
+		)
+public class TestRunner {
+
+}

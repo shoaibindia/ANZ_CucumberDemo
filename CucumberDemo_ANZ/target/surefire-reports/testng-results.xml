@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-06T09:05:49Z" name="TestRun.TestRunner" finished-at="2023-04-06T09:06:38Z" duration-ms="49216">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRun.TestRunner@20ce78ec]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-04-06T09:05:49Z" name="Command line test" finished-at="2023-04-06T09:06:38Z" duration-ms="49216">
+      <class name="TestRun.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:TestRun.TestRunner@20ce78ec]" started-at="2023-04-06T09:05:49Z" name="setUpClass" finished-at="2023-04-06T09:05:50Z" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRun.TestRunner@20ce78ec]" started-at="2023-04-06T09:05:50Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-06T09:06:07Z" duration-ms="17261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify a person has borrowing estimate of specific amount"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ANZ loan Calculator]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRun.TestRunner@20ce78ec]" started-at="2023-04-06T09:06:07Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-06T09:06:24Z" duration-ms="16757" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Clicking on start over button clears the form"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ANZ loan Calculator]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRun.TestRunner@20ce78ec]" started-at="2023-04-06T09:06:24Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-04-06T09:06:38Z" duration-ms="14369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify entering only one dollar for living expenses leaving all fields as zero and clicking Borrow buttons gives Based on the details you have  entered, we're unable to give you an estimate of your borrowing power with this calculator. For questions, call us on 1800 100 641 message"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ANZ loan Calculator]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRun.TestRunner@20ce78ec]" started-at="2023-04-06T09:06:38Z" name="tearDownClass" finished-at="2023-04-06T09:06:38Z" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRun.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestRun.TestRunner -->
+</testng-results>

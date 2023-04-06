@@ -1,0 +1,15 @@
+package TestRun;
+
+//import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+
+@CucumberOptions(
+		features = "src/test/resources/featureFiles", 
+		glue = "src/test/java/stepDefinition", monochrome = true,
+		plugin= {"html:target/cucumber-html-report.html",
+				"rerun:target/rerun.txt",
+				"pretty",
+				"json:target/cucumber.json"})
+public class TestRunner {
+
+}
